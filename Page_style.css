@@ -25,12 +25,6 @@
         margin-bottom: 10px;
      }
      
-    .Main .title{
-        display:flex;
-        font-size:larger;
-        font-weight:700;
-    }
-
      hr{
         border-top: none;
         border-bottom: 1px solid gray;
