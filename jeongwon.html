@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Page_style.css">
-    <title>Console.log() 정원 소개</title>
+    <title>Console.log()</title>
 </head>
 
 <body>
     <div class="Main" >
-        <img src="/Users/dongkyu_lee/precourse_team/img/콘솔로그_2.png" class="img">
+        <img src="/Users/dongkyu_lee/Desktop/hanghae99_free/precourse_team/img/콘솔로그_2.png" class="img">
     </div> 
 
     <hr>
@@ -17,24 +17,37 @@
     <div id = "grid">
     <ol>
         <a href="index.html">HOME</a> <br><br>
-        <a href="jeongwon.html">정원</a><br>
-        <a href="dongkyu.html">동규</a><br>
-        <a href="gunuk.html">건욱</a><br>
+        <a href="jeongwon.html">ISFP</a><br>
+        <a href="dongkyu.html">INFP</a><br>
+        <a href="gunuk.html">ENTP</a><br>
     </ol>
     
     <div id = "article"> 
     <div class="name">
-        <div class="btn">
-            <button class="btn1">수정</button>
-            <button class="btn2">삭제</button>
-        </div> 
-        <img src="/Users/dongkyu_lee/precourse_team/img/예시_1.jpeg" class="personal1"><br>
+        <img src="/Users/dongkyu_lee/Desktop/hanghae99_free/precourse_team/img/jeongwon.jpg" class="personal1"><br>
         <span>김정원</span>   
     </div>
     
+    <button class="but" onclick="openModal()">상세 프로필</button> 
+            <div id="myModal" class="modal"> 
+                <div class="modal-content"> 
+                    <span onclick="closeModal()">&times;</span>
+                    <p>지역 : 서울</p>
+                    <p>나이 : 22세</p>
+                    <p>키 : 1??CM</p> 
+                </div> 
+            </div>  
+            <script> 
+                function openModal() { 
+                    document.getElementById("myModal").style.display = "block"; 
+                } 
+                function closeModal() { document.getElementById("myModal").style.display = "none"; 
+                }
+                 </script> 
+
     <div class = "Intro">
         <span>1. 소개글 (MBTI) </span> </br>
-        <p>소개글 ~~~~</p>
+        <p>예술가적인 성향을 가지며, 자연과 조화롭게 지내는 ISFP</p>
     </div>
     <div class = "PR">
         <span>2. 자신의 장점/아쉬운 점 </span> </br>
@@ -44,10 +57,24 @@
         <span>3. 협업을 하는 과정에서의 자신의 스타일 </span> </br>
         <p>팀프로젝트 수행시~~~</p> 
     </div>
-    <div class = "cmt">
-        <span>댓글</span> </br>
-        <input type="text"> 
-    </div>
+    
+    <div class="container">
+        <h2>댓글</h2>
+        <div id="comments">
+          <!-- 여기에 댓글이 표시됩니다 -->
+        </div>
+        <form id="comment-form">
+            <label for="name">이름:</label>
+            <input type="text" id="name" required>
+            <label for="password">비밀번호:</label>
+            <input type="password" id="password" required>
+            <label for="comment">댓글:</label>
+            <textarea class="comment" rows="2" required></textarea>
+            <button type="submit">댓글 추가</button>
+        </form>
+      </div>
+</div>
+</div>
 </div>
 </div>
     
