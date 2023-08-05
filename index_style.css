@@ -37,61 +37,115 @@
     align-items: center;
 }
 
-.F2 {
-    margin-top: 50px;
-    width: 125px;
-    height: 125px;
-    margin-left: 100px;
-    font-size:40px;
-    font-weight:600;
-    color:#2C3340;
-    border-radius: 125px;
-    background-color: white;
-    text-align: center;
-}
-
-.F1 {
-    margin-top: 50px;
-    width: 125px;
-    height: 125px;
-    margin-right: 100px;
-    font-size:40px;
-    font-weight:600;
-    color:#2C3340;
-    border-radius: 125px;
-    background-color: white;
-    text-align: center;
-}
-
-.T {
-    margin-top: 100px;
-    width: 125px;
-    height: 125px;
-    margin-right: 100px;
-    font-size:40px;
-    font-weight:600;
-    color:#2C3340;
-    border-radius: 125px;
-    background-color: white;
-    text-align: center;
-    justify-content: row;
-    align-items: center;
-}
-
-.Point1 {
-    float: left;
-
-    margin-left: 30px;
-}
-
 .section3 .table{
     margin-top: 25px;
     width:600px;
     height:600px;
     border-radius: 100px;
-    text-align:center;
     background-color: #CBE9F2;
 }
+
+.F {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.F .Point1 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.F1 {
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+    width: 150px;
+    height: 150px;
+    font-size:40px;
+    font-weight:600;
+    color:#2C3340;
+    border-radius: 150px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NF {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border-top-color: #CBE9F2;
+}
+
+.F2 {
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+    width: 150px;
+    height: 150px;
+    font-size:40px;
+    font-weight:600;
+    color:#2C3340;
+    border-radius: 150px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NF .Point2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+
+
+.TP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.TP .Point3 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.T {
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+    width: 150px;
+    height: 150px;
+    font-size:40px;
+    font-weight:600;
+    color:#2C3340;
+    border-radius: 150px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 a {
     color: #2C3340;
