@@ -31,10 +31,15 @@
     text-align: center;
 }
 
+.now {
+    font-size: 20px;
+}
+
 .section3{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .section3 .table{
